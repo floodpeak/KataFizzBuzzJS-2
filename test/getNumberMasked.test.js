@@ -9,4 +9,7 @@ describe('getNumberMasked',function(){
   it('should get 2 for 2',function(){
     expect(getNumberMasked(2)).to.be.equal(2)
   })
+  it('should get Fizz for 3',function(){
+    expect(getNumberMasked(3)).to.be.equal('Fizz')
+  })
 })
