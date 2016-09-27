@@ -12,4 +12,7 @@ describe('getNumberMasked',function(){
   it('should get Fizz for 3',function(){
     expect(getNumberMasked(3)).to.be.equal('Fizz')
   })
+  it('should get Buzz for 5',function(){
+    expect(getNumberMasked(5)).to.be.equal('Buzz')
+  })
 })
